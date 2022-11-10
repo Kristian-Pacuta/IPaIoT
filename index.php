@@ -11,12 +11,12 @@ Subject: <input type="text" name="subject"><br>
 </form>
 
 <?php
-    $name = test_input($_GET["name"]);
-    $email = test_input($_GET["email"]);
-    $age = test_input($_GET["age"]);
-    $school = test_input($_GET["school"]);
-    $year = test_input($_GET["year"]);
-    $subject = test_input($_GET["subject"]);
+    $name = $_GET["name"];
+    $email = $_GET["email"];
+    $age = $_GET["age"];
+    $school = $_GET["school"];
+    $year = $_GET["year"];
+    $subject = $_GET["subject"];
 
     $file1 = fopen("values.txt","w") or die("Unable to open file!");
     $text1 = "Name:" . $name . " Email:" . $email . "Age:" . $age . "School:" . $school . "Year:" . $year . " Subject:" . $subject;    
