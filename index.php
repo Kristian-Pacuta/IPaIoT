@@ -13,13 +13,13 @@ Subject: <input type="text" name="subject"><br>
 <?php
     $name = test_input($_GET["name"]);
     $email = test_input($_GET["email"]);
-    $age = test_input($_GET["website"]);
-    $school = test_input($_GET["comment"]);
-    $year = test_input($_GET["gender"]);
-    $subject = test_input($_GET["gender"]);
+    $age = test_input($_GET["age"]);
+    $school = test_input($_GET["school"]);
+    $year = test_input($_GET["year"]);
+    $subject = test_input($_GET["subject"]);
 
     $file1 = fopen("values.txt","w") or die("Unable to open file!");
-    $text1 = "a=" . $name . " b=" . $email . "a=" . $age . " b=" . $school . "a=" . $year . " b=" . $subject;    
+    $text1 = "Name:" . $name . " Email:" . $email . "Age:" . $age . "School:" . $school . "Year:" . $year . " Subject:" . $subject;    
     fwrite($file1, $text1);
     fclose($file1);
     ?>
