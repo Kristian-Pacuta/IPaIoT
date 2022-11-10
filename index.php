@@ -19,7 +19,7 @@ Subject: <input type="text" name="subject"><br>
     $subject = $_GET["subject"];
 
     $file1 = fopen("values.txt","w") or die("Unable to open file!");
-    $text1 = "Name:" . $name . " Email:" . $email . "Age:" . $age . "School:" . $school . "Year:" . $year . " Subject:" . $subject;    
+    $text1 = "Name:" . $name . "n\Email:" . $email . "\nAge:" . $age . "\nSchool:" . $school . "\nYear:" . $year . "\nSubject:" . $subject;    
     fwrite($file1, $text1);
     fclose($file1);
     ?>
