@@ -1,6 +1,15 @@
 <html>
 <body>
 
+<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+Age: <input type="text" name="age"><br>
+School: <input type="text" name="school"><br>
+Year: <input type="text" name="year"><br>
+Subject: <input type="text" name="subject"><br>
+<input type="submit">
+</form>
+
 <?php
     $name = test_input($_GET["name"]);
     $email = test_input($_GET["email"]);
@@ -14,15 +23,6 @@
     fwrite($file1, $text1);
     fclose($file1);
     ?>
-
-<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-Age: <input type="text" name="age"><br>
-School: <input type="text" name="school"><br>
-Year: <input type="text" name="year"><br>
-Subject: <input type="text" name="subject"><br>
-<input type="submit">
-</form>
 
 </body>
 </html> 
