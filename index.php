@@ -1,7 +1,11 @@
-<?php
+<html>
+<body>
 
-echo '<h1>Nadpis uroven 1</h1>';
+<form action="welcome_get.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
 
-echo '<p>text text text</p>';
-
-?>
+</body>
+</html> 
