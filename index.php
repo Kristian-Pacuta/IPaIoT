@@ -5,11 +5,11 @@
 <body>
 
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-Age: <input type="text" name="age"><br>
-School: <input type="text" name="school"><br>
-Year: <input type="text" name="year"><br>
-Subject: <input type="text" name="subject"><br>
+<h3>E-mail: <input type="text" name="email"></h3><br>
+<h3>Age: <input type="text" name="age"></h3><br>
+<h3>School: <input type="text" name="school"></h3><br>
+<h3>Year: <input type="text" name="year"></h3><br>
+<h3>Subject: <input type="text" name="subject"></h3><br>
 <input type="submit">
 </form>
 
