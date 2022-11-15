@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> Name: <input type="text" name="name"><br>
+<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <h3>Name: <input type="text" name="name"></h3><br>
 <h3>E-mail: <input type="text" name="email"></h3><br>
 <h3>Age: <input type="text" name="age"></h3><br>
