@@ -9,6 +9,7 @@
 <h3>E-mail: <input type="email" name="email"></h3><br>
 <h3>Age: <input type="text" name="age"></h3><br>
 <h3>School: <input type="text" name="school"></h3><br>
+<h3>Year: </h3>
 <h3><form>
   <input type="radio" id="1" name="year" value="1">
   <label for="1">1</label><br>
