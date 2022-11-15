@@ -20,7 +20,6 @@
   <label for="4">4</label><br>
   <input type="radio" id="5" name="year" value="5">
   <label for="5">5</label><br>
-  <input type="submit" value="Submit">
 </form></h3><br>
 <h3>Subject: <input type="text" name="subject"></h3><br>
 <input type="submit">
