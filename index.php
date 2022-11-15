@@ -12,15 +12,15 @@
 <h3>Year: </h3>
 <h3><form>
   <input type="radio" id="1" name="year" value="1">
-  <label for="1">1</label><br>
+  <label for="1">1</label>
   <input type="radio" id="2" name="year" value="2">
-  <label for="2">2</label><br>
+  <label for="2">2</label>
   <input type="radio" id="3" name="year" value="3">
-  <label for="3">3</label><br>
+  <label for="3">3</label>
   <input type="radio" id="4" name="year" value="4">
-  <label for="4">4</label><br>
+  <label for="4">4</label>
   <input type="radio" id="5" name="year" value="5">
-  <label for="5">5</label><br>
+  <label for="5">5</label>
 </form></h3><br>
 <h3>Subject: <input type="text" name="subject"></h3><br>
 <input type="submit">
