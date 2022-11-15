@@ -1,4 +1,7 @@
 <html>
+<head>
+  <link rel="stylesheet" href="screenStyle.css">
+</head>
 <body>
 
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> Name: <input type="text" name="name"><br>
