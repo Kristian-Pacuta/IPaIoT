@@ -10,7 +10,7 @@
 <h3>Age: <input type="text" name="age"></h3><br>
 <h3>School: <input type="text" name="school"></h3><br>
 <h3>Year: </h3>
-<h3><form>
+<h3>
   <input type="radio" id="1" name="year" value="1">
   <label for="1">1</label>
   <input type="radio" id="2" name="year" value="2">
@@ -21,7 +21,7 @@
   <label for="4">4</label>
   <input type="radio" id="5" name="year" value="5">
   <label for="5">5</label>
-</form></h3><br>
+</h3><br>
 <h3>Subject: <input type="text" name="subject"></h3><br>
 <input type="submit">
 </form>
