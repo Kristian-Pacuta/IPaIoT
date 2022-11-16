@@ -27,11 +27,12 @@
 <h3>Subject: <input type="text" name="subject"></h3><br>
 <input type="submit">
 </form>
+<h3><a href="https://kp-iot.azurewebsites.net/values.txt">File with saved values.</a></h3>
 
 <?php
     $name = $_GET["name"];
     $email = $_GET["email"];
-    $age = $_GET["birthday"];
+    $birthday = $_GET["birthday"];
     $school = $_GET["school"];
     $year = $_GET["year"];
     $subject = $_GET["subject"];
