@@ -7,7 +7,10 @@
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <h3>Name: <input type="text" name="name"></h3><br>
 <h3>E-mail: <input type="email" name="email"></h3><br>
-<h3>Age: <input type="text" name="age"></h3><br>
+<h3>  
+  <label for="birthday">Birthday: </label>
+  <input type="date" id="birthday" name="birthday">
+</h3><br>
 <h3>School: <input type="text" name="school"></h3><br>
 <h3>Year: 
   <input type="radio" id="1" name="year" value="1">
@@ -28,13 +31,13 @@
 <?php
     $name = $_GET["name"];
     $email = $_GET["email"];
-    $age = $_GET["age"];
+    $age = $_GET["birthday"];
     $school = $_GET["school"];
     $year = $_GET["year"];
     $subject = $_GET["subject"];
 
     $file1 = fopen("values.txt","w") or die("Unable to open file!");
-    $text1 = "Name: " . $name . "\nEmail: " . $email . "\nAge: " . $age . "\nSchool: " . $school . "\nYear: " . $year . "\nSubject: " . $subject;    
+    $text1 = "Name: " . $name . "\nEmail: " . $email . "\nBirthday: " . $birthday . "\nSchool: " . $school . "\nYear: " . $year . "\nSubject: " . $subject;    
     fwrite($file1, $text1);
     fclose($file1);
     ?>
