@@ -6,12 +6,16 @@
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <h3>Name: <input type="text" name="name"></h3><br>
+
 <h3>E-mail: <input type="email" name="email"></h3><br>
+
 <h3>  
   <label for="birthday">Birthday: </label>
   <input type="date" id="birthday" name="birthday">
 </h3><br>
+
 <h3>School: <input type="text" name="school"></h3><br>
+
 <h3>Year: 
   <input type="radio" id="1" name="year" value="1">
   <label for="1">1</label>
@@ -24,9 +28,12 @@
   <input type="radio" id="5" name="year" value="5">
   <label for="5">5</label>
 </h3><br>
+
 <h3>Subject: <input type="text" name="subject"></h3><br>
+
 <input type="submit">
 </form>
+
 <h3><a href="https://kp-iot.azurewebsites.net/values.txt">File with saved values.</a></h3>
 
 <?php
@@ -41,7 +48,7 @@
     $text1 = "Name: " . $name . "\nEmail: " . $email . "\nBirthday: " . $birthday . "\nSchool: " . $school . "\nYear: " . $year . "\nSubject: " . $subject;    
     fwrite($file1, $text1);
     fclose($file1);
-    ?>
+?>
 
 </body>
 </html> 
