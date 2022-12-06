@@ -4,7 +4,7 @@
 </head>
 <body>
 
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <h3>Name: <input type="text" name="name"></h3><br>
 
 <h3>E-mail: <input type="email" name="email"></h3><br>
@@ -37,12 +37,12 @@
 <h3><a href="https://kp-iot.azurewebsites.net/values.txt">File with saved values.</a></h3>
 
 <?php
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $birthday = $_POST["birthday"];
-    $school = $_POST["school"];
-    $year = $_POST["year"];
-    $subject = $_POST["subject"];
+    $name = $_GET["name"];
+    $email = $_GET["email"];
+    $birthday = $_GET["birthday"];
+    $school = $_GET["school"];
+    $year = $_GET["year"];
+    $subject = $_GET["subject"];
 
     $file1 = fopen("values.txt","w") or die("Unable to open file!");
     $text1 = "Name: " . $name . "\nEmail: " . $email . "\nBirthday: " . $birthday . "\nSchool: " . $school . "\nYear: " . $year . "\nSubject: " . $subject;    
