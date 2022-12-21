@@ -12,7 +12,7 @@
   <input type="radio" id="1" name="movement" value="0" checked="checked">
   <label for="1"> Turning follow</label><br><br>
   <input type="radio" id="2" name="movement" value="1">
-  <label for="2"> Crab walk follow</label></h3><br><br>
+  <label for="2"> Crab walk follow</label></h3><br>
 
 <input type="submit">
 </form>
