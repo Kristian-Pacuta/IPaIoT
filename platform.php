@@ -1,5 +1,5 @@
 <?php
-echo '<h1>Paraneters passing page</h1>';
+echo '<h1>Parameters passing page</h1>';
 
 $sensorValue1 = $_GET["a"];
 $sensorValue2 = $_GET["b"];
