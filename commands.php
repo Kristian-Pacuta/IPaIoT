@@ -8,8 +8,8 @@
 <br>
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
-<h3>Type of movement: <br> <br>
-  <input type="radio" id="1" name="movement" value="0">
+<h3>Choose type of movement: <br> <br>
+  <input type="radio" id="1" name="movement" value="0" checked="checked">
   <label for="1"> Turning follow</label><br><br>
   <input type="radio" id="2" name="movement" value="1">
   <label for="2"> Crab walk follow</label></h3><br><br>
