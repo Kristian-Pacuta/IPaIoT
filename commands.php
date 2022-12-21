@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="screenStyle.css">
 </head>
 <body>
-
+<br>
 <h2> Target following style</h2>
 <br>
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
