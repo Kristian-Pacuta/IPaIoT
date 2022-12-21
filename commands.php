@@ -5,15 +5,14 @@
 <body>
 
 <h2> Target following style</h2>
-
+<br>
 <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
 <h3>Type of movement: 
   <input type="radio" id="1" name="movement" value="0">
-  <label for="1"> Turning follow</label>
+  <label for="1"> Turning follow</label><br>
   <input type="radio" id="2" name="movement" value="1">
-  <label for="2"> Crab walk follow</label>
-</h3><br>
+  <label for="2"> Crab walk follow</label></h3><br>
 
 <input type="submit">
 </form>
