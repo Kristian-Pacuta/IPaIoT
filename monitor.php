@@ -13,6 +13,7 @@ $distance=fgets($fp);
     fclose($fp);
 
 
+echo "<a>" . "https://kp-iot.azurewebsites.net/commands.php" . "</a>";
 
 /*$myfile = fopen("sensors.txt", "r") or die("Unable to open file!");
 echo fread($myfile,filesize("sensors.txt"));
