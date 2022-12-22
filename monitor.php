@@ -5,6 +5,7 @@ $fp = fopen("sensors.txt", "r");
 if ($fp) {
     while (($buffer = fgets($fp, 4096)) !== false) {
         echo $buffer;
+        echo "\n";
     }
     if (!feof($fp)) {
         echo "Error: unexpected fgets() fail\n";
