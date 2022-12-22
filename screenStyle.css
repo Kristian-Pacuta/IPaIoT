@@ -27,5 +27,11 @@ h3{
 }
 
 a{
-    color: white;
+    color: aqua;
 }
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
