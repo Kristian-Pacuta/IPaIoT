@@ -1,15 +1,12 @@
 <?php
 header("refresh: 3;");
 
-$fp = fopen("sensors.txt", "r");
-if ($fp) {
-    while (($buffer = fgets($fp, 4096)) !== false) {
-        echo $buffer;
-        echo "</br>";
-    }
-    if (!feof($fp)) {
-        echo "Error: unexpected fgets() fail\n";
-    }
+echo "<h1>" . "Sensor monitor: " . "</h1>" . "<br>"
+$fp = fopen("sensors.txt", "r") or die("Unable to open file!");
+
+    echo "Gyroscope X-axis acceleration: " . fgets($fp, 4096) . " m/s2" . "<br>";
+    echo "Gyroscope Y-axis acceleration: " . fgets($fp, 4096) . " m/s2" . "<br>";
+    echo "Estimated sonar distance: " . fgets($fp, 4096) . " cm" . "<br>";
     fclose($fp);
 }
 
