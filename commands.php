@@ -17,7 +17,7 @@
 <input type="submit">
 </form>
 <br>
-<a href=https://kp-iot.azurewebsites.net/commands.php> Sensor monitor </a>;
+<a href=https://kp-iot.azurewebsites.net/commands.php> Sensor monitor </a>
 
 
 <?php
