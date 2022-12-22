@@ -13,7 +13,7 @@ $distance=fgets($fp);
     fclose($fp);
 
 
-echo "<a href=https://kp-iot.azurewebsites.net/commands.php target="_blank">" . "Movement control" . "</a>";
+echo "<a href=https://kp-iot.azurewebsites.net/commands.php>" . "Movement control" . "</a>";
 
 
 
