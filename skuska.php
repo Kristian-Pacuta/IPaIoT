@@ -42,7 +42,7 @@
 
 <?php
     
-    $year = $_GET["number"];
+    $number = $_GET["number"];
 
     $file1 = fopen("skuska.txt","w") or die("Unable to open file!");
     $text1 = "number: " . $number;    
