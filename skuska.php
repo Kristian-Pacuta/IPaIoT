@@ -70,16 +70,16 @@
 </h3><br>
 
 <h3>Operation:
-    <label for="+">0</label>
+    <label for="+">+</label>
     <input type="radio" id="0" name="operation" value="0">
     
-    <label for="-">1</label>
+    <label for="-">-</label>
     <input type="radio" id="1" name="operation" value="1">
     
-    <label for="x">2</label>
+    <label for="x">x</label>
     <input type="radio" id="2" name="operation" value="2">
     
-    <label for=":">3</label>
+    <label for=":">:</label>
     <input type="radio" id="3" name="operation" value="3">
 </h3><br>
 
