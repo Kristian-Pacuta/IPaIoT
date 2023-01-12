@@ -90,9 +90,10 @@
     
     $number1 = $_GET["number1"];
     $number2 = $_GET["number2"];
+    $operation = $_GET["operation"];
 
     $file1 = fopen("skuska.txt","w") or die("Unable to open file!");
-    $text1 = "number1: " . $number1 . "\nnumber2: " . $number2;    
+    $text1 = "number1: " . $number1 . "\nnumber2: " . $number2 . "\noperation: " . $operation;    
     fwrite($file1, $text1);
     fclose($file1);
 ?>
