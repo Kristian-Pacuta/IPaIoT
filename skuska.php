@@ -98,23 +98,31 @@
         echo "<br>";
         echo "\nResult:" . $result;
     }
-    else if ($operation == 0){
+    else if ($operation == 1){
         $result = $number1 - $number2;
+        echo "<h3>";
         echo "<br>";
         echo "\nResult:" . $result;
+        echo "</h3>";
     }
-    else if ($operation == 0){
+    else if ($operation == 2){
         $result = $number1 * $number2;
+        echo "<h3>";
         echo "<br>";
         echo "\nResult:" . $result;
+        echo "</h3>";
     }
-    else if ($operation == 0){
+    else if ($operation == 3){
         $result = $number1 / $number2;
+        echo "<h3>";
         echo "<br>";
         echo "\nResult:" . $result;
+        echo "</h3>";
     }
     else{
+        echo "<h3>";
         echo "Something went wrong.";
+        echo "</h3>";
     }
     
 
